@@ -191,7 +191,7 @@ class _Header extends StatelessWidget {
                         .toList(),
               ),
             ),
-
+            const SizedBox(height: 20),
             if (detail.spriteUrl.isNotEmpty)
               Center(
                 child: SizedBox(
@@ -200,7 +200,7 @@ class _Header extends StatelessWidget {
                   child: Image.network(detail.spriteUrl, fit: BoxFit.contain),
                 ),
               ),
-            const SizedBox(height: 8),
+            //
           ],
         ),
       ),
